@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="./Assets/styles.css" />
+  <script src="https://kit.fontawesome.com/aaf9c59557.js" crossorigin="anonymous"></script>
+  <title>Static Template</title>
+</head>
+
+<body>
+
+  <!-- Nav Bar -->
+
+  <header>
+
+    <div class="logo">
+      <img src="./Assets/logo.png" alt="">
+      <a href="#">
+        <p class="fav">Favourites</p>
+      </a>
+
+    </div>
+
+    <div class="searchbox-container">
+      <div class="search-box">
+        <i class="fas fa-search"></i>
+        <input type="text" placeholder="Search">
+        <i class="fas fa-microphone"></i>
+      </div>
+      <i class="fas bell fa-bell"></i>
+      <img class="profile-photo" src="./Assets/profilepic.jpg">
+    </div>
+
+  </header>
+
+  <!-- Main Body -->
+
+  <main>
+    <div class="container-LHS">
+      <div class="carousel">
+        <div id="slider">
+          <input type="radio" name="slider" id="s1" checked>
+          <input type="radio" name="slider" id="s2">
+          <input type="radio" name="slider" id="s3">
+          <input type="radio" name="slider" id="s4">
+          <input type="radio" name="slider" id="s5">
+
+          <label for="s1" id="slide1"><img src="./Assets/corousal/img1.jpg"
+              alt=""></label>
+          <label for="s2" id="slide2"><img src="./Assets/corousal/img2.jpg"
+              alt=""></label>
+          <label for="s3" id="slide3"><img src="./Assets/corousal/img3.jpg"
+              alt=""></label>
+          <label for="s4" id="slide4"><img src="./Assets/corousal/img4.png"
+              alt=""></label>
+          <label for="s5" id="slide5"><img src="./Assets/corousal/img5.png"
+              alt=""></label>
+        </div>
+      </div>
+
+      <!-- Queue 1 Container -->
+      <div id="queue1" class="queue-container">
+        <div class="queue-header-container">
+          <div id="queue-header" class="heading-text"> My Playlist</div>
+          <div id="queue-dropdown" class="text2">Queue
+            <div class="dropdown">
+              <ul>
+                <li><a href="">Playlists</a></li>
+                <li><a href="">Favourites</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Queue Elements -->
+        <div class="queue-elements" id="element1">
+          <div class="album-container"><span class="text2">01</span>
+            <div class="image-container"><i class="fas play-btn fa-play "></i><img
+                src="./Assets/queuesongs/kissmemore.png" alt=""></div>
+            <ul>
+              <li class="text1">Kiss Me More</li>
+              <br>
+              <li class="text2">Doja Cat</li>
+            </ul>
+          </div>
+          <button><i class="far wishlist-icon fa-heart"></i></button>
+        </div>
+
+        <div class="queue-elements" id="element1">
+          <div class="album-container"><span class="text2">02</span>
+            <div class="image-container"><i class="fas play-btn fa-play "></i><img
+                src="./Assets/queuesongs/blankspace.jpg" alt=""></div>
+            <ul>
+              <li class="text1">Blank Space</li>
+              <br>
+              <li class="text2">Doja Cat</li>
+            </ul>
+          </div>
+          <button><i class="far wishlist-icon fa-heart"></i></button>
+        </div>
+
+        <div class="queue-elements" id="element1">
+          <div class="album-container"><span class="text2">03</span>
+            <div class="image-container"><i class="fas play-btn fa-play "></i><img
+                src="./Assets/queuesongs/cheapthrills.jpg" alt=""></div>
+            <ul>
+              <li class="text1">Cheap Thrills</li>
+              <br>
+              <li class="text2">Sia</li>
+            </ul>
+          </div>
+          <button><i class="far wishlist-icon fa-heart"></i></button>
+        </div>
+
+        <div class="queue-elements" id="element1">
+          <div class="album-container"><span class="text2">04</span>
+            <div class="image-container"><i class="fas play-btn fa-play "></i><img
+                src="./Assets/queuesongs/Coldplay_-_Paradise.jpg" alt=""></div>
+            <ul>
+              <li class="text1">Paradise</li>
+              <br>
+              <li class="text2">Cold Play</li>
+            </ul>
+          </div>
+          <button><i class="far wishlist-icon fa-heart"></i></button>
+        </div>
+
+        <div class="queue-elements" id="element1">
+          <div class="album-container"><span class="text2">05</span>
+            <div class="image-container"><i class="fas play-btn fa-play "></i><img src="./Assets/queuesongs/gangsta.jpg"
+                alt=""></div>
+            <ul>
+              <li class="text1">Gangsta Paradise</li>
+              <br>
+              <li class="text2">Gangsta</li>
+            </ul>
+          </div>
+          <button><i class="far wishlist-icon fa-heart"></i></button>
+        </div>
+
+        <div class="queue-elements" id="element1">
+          <div class="album-container"><span class="text2">06</span>
+            <div class="image-container"><i class="fas play-btn fa-play "></i><img
+                src="./Assets/queuesongs/goodforyou.png" alt=""></div>
+            <ul>
+              <li class="text1">Good For You</li>
+              <br>
+              <li class="text2">Doja Cat</li>
+            </ul>
+          </div>
+          <button><i class="far wishlist-icon fa-heart"></i></button>
+        </div>
+
+        <div class="queue-elements" id="element1">
+          <div class="album-container"><span class="text2">07</span>
+            <div class="image-container"><i class="fas play-btn fa-play "></i><img
+                src="./Assets/queuesongs/sevenrings.jpg" alt=""></div>
+            <ul>
+              <li class="text1">Seven Rings</li>
+              <br>
+              <li class="text2">Doja Cat</li>
+            </ul>
+          </div>
+          <button><i class="far wishlist-icon fa-heart"></i></button>
+        </div>
+
+        <!-- Queue Container End  -->
+      </div>
+
+      <!-- Latest Release Container -->
+      <div class="latest-header heading-text">Latest Release</div>
+      <br>
+
+
+      <div id="latest-release-container" class="common-container">
+        <div class="latest-release-cards">
+          <div class="latest-release-img" id="latest-release-image1">
+            <label for="play-btn-checkbox1">
+              <button id="play-btn-latest-release"><i class="fas fa-play play-1"></i></button>
+              <button id="pause-btn-latest-release"><i class="fas fa-pause pause-1"></i></button></label>
+          </div>
+          <div class="latest-release-title text1">
+            <p>About Me</p>
+            <p>April 8, 2024</p>
+          </div>
+          <div class="latest-release-dropdown-container">
+            <label for="latest-release-checkbox1"><i class="fas more-details fa-ellipsis-h"></i></label>
+            <input type="checkbox" id="latest-release-checkbox1">
+            <div class="latest-release-dropdown">
+
+              <div class="links-container">
+                <i class="fas fa-play"></i>
+                <a href="">Play Now</a>
+              </div>
+
+              <hr>
+
+              <div class="links-container">
+                <i class="fas fa-plus"></i>
+                <a href="">Add To Queue</a>
+              </div>
+
+              <hr>
+
+              <div class="links-container">
+                <i class="fas fa-bars"></i>
+                <a href="">Add To Favourites</a>
+              </div>
+
+              <hr>
+
+              <div class="links-container">
+                <i class="fas fa-exclamation-circle"></i>
+                <a href=""><span></span>Get Info</a>
+              </div>
+
+            </div>
+            <p class="time">4:44</p>
+          </div>
+        </div>
+
+        <div class="latest-release-cards">
+          <div class="latest-release-img" id="latest-release-image2">
+            <label for="play-btn-checkbox1">
+              <button id="play-btn-latest-release"><i class="fas fa-play play-1"></i></button>
+              <button id="pause-btn-latest-release"><i class="fas fa-pause pause-1"></i></button></label>
+          </div>
+          <div class="latest-release-title text1">
+            <p>Are You Lonely</p>
+            <p>April 8, 2024</p>
+          </div>
+          <div class="latest-release-dropdown-container">
+            <label for="latest-release-checkbox2"><i class="fas more-details fa-ellipsis-h"></i></label>
+            <input type="checkbox" id="latest-release-checkbox2">
+            <div class="latest-release-dropdown">
+
+              <div class="links-container">
+                <i class="fas fa-play"></i>
+                <a href="">Play Now</a>
+              </div>
+
+              <hr>
+
+              <div class="links-container">
+                <i class="fas fa-plus"></i>
+                <a href="">Add To Queue</a>
+              </div>
+
+              <hr>
+
+              <div class="links-container">
+                <i class="fas fa-bars"></i>
+                <a href="">Add To Favourites</a>
+              </div>
+
+              <hr>
+
+              <div class="links-container">
+                <i class="fas fa-exclamation-circle"></i>
+                <a href=""><span></span>Get Info</a>
+              </div>
+
+            </div>
+            <p class="time">4:44</p>
+          </div>
+        </div>
+
+        <div class="latest-release-cards">
+          <div class="latest-release-img" id="latest-release-image3">
+            <label for="play-btn-checkbox1">
+              <button id="play-btn-latest-release"><i class="fas fa-play play-1"></i></button>
+              <button id="pause-btn-latest-release"><i class="fas fa-pause pause-1"></i></button></label>
+          </div>
+          <div class="latest-release-title text1">
+            <p>Havana</p>
+            <p>April 8, 2024</p>
+          </div>
+          <div class="latest-release-dropdown-container">
+            <label for="latest-release-checkbox3"><i class="fas more-details fa-ellipsis-h"></i></label>
+            <input type="checkbox" id="latest-release-checkbox3">
+            <div class="latest-release-dropdown">
+
+              <div class="links-container">
+                <i class="fas fa-play"></i>
+                <a href="">Play Now</a>
+              </div>
+
+              <hr>
+
+              <div class="links-container">
+                <i class="fas fa-plus"></i>
+                <a href="">Add To Queue</a>
+              </div>
+
+              <hr>
+
+              <div class="links-container">
+                <i class="fas fa-bars"></i>
+                <a href="">Add To Favourites</a>
+              </div>
+
+              <hr>
+
+              <div class="links-container">
+                <i class="fas fa-exclamation-circle"></i>
+                <a href=""><span></span>Get Info</a>
+              </div>
+
+            </div>
+            <p class="time">4:44</p>
+          </div>
+        </div>
+
+        <div class="latest-release-cards">
+          <div class="latest-release-img" id="latest-release-image4">
+            <label for="play-btn-checkbox1">
+              <a href="#playbar" class="action"><button id="play-btn-latest-release"><i class="fas fa-play play-1"></i></button></a>
+              <button id="pause-btn-latest-release"><i class="fas fa-pause pause-1"></i></button></label>
+          </div>
+          <div class="latest-release-title text1">
+            <p>Morni</p>
+            <p>April 8, 2024</p>
+          </div>
+          <div class="latest-release-dropdown-container">
+            <label for="latest-release-checkbox4"><i class="fas more-details fa-ellipsis-h"></i></label>
+            <input type="checkbox" id="latest-release-checkbox4">
+            <div class="latest-release-dropdown">
+
+              <div class="links-container">
+                <i class="fas fa-play"></i>
+                <a href="">Play Now</a>
+              </div>
+
+              <hr>
+
+              <div class="links-container">
+                <i class="fas fa-plus"></i>
+                <a href="">Add To Queue</a>
+              </div>
+
+              <hr>
+
+              <div class="links-container">
+                <i class="fas fa-bars"></i>
+                <a href="">Add To Favourites</a>
+              </div>
+
+              <hr>
+
+              <div class="links-container">
+                <i class="fas fa-exclamation-circle"></i>
+                <a href=""><span></span>Get Info</a>
+              </div>
+
+            </div>
+            <p class="time">4:44</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Popular Artists Container -->
+
+      <div class="latest-header heading-text">Popular Artists</div>
+      <br>
+      <div class="popular-artists-container">
+        <div class="popular-artists-img-container">
+          <div class="popular-artist-img" id="popular-artist-image1"><a href="https://www.google.com" target="_blank"><button><i class="fas fa-play play-1"></i></button></a>
+          </div>
+          <p class="text2">Ed Sheeran</p>
+        </div>
+
+        <div class="popular-artists-img-container">
+          <div class="popular-artist-img" id="popular-artist-image2"><a href="index2.html" target="_blank"><button><i class="fas fa-play play-1"></i></button></a>
+          </div>
+          <p class="text2">Cold Play</p>
+        </div>
+
+        <div class="popular-artists-img-container">
+          <div class="popular-artist-img" id="popular-artist-image3"><a href="index2.html" target="_blank"><button><i class="fas fa-play play-1"></i></button></a>
+          </div>
+          <p class="text2">Zyan Malik</p>
+        </div>
+
+        <div class="popular-artists-img-container">
+          <div class="popular-artist-img" id="popular-artist-image4"><a href="index2.html" target="_blank"><button><i class="fas fa-play play-1"></i></button></a>
+          </div>
+          <p class="text2">Charlie Puth</p>
+        </div>
+
+        <div class="popular-artists-img-container">
+          <div class="popular-artist-img" id="popular-artist-image5"><a href="index2.html" target="_blank"><button><i class="fas fa-play play-1"></i></button></a>
+          </div>
+          <p class="text2">Imagine Dragon</p>
+        </div>
+
+        <div class="popular-artists-img-container">
+          <div class="popular-artist-img" id="popular-artist-image6"><button><i class="fas fa-play play-1"></i></button>
+          </div>
+          <p class="text2">Bruno Mars</p>
+        </div>
+      </div>
+
+      <!-- Stations Container -->
+
+      <div class="stations-container">
+        <div class="stations-items" id="station-item1"></div>
+        <div class="stations-items text1" id="station-item2">Love</div>
+        <div class="stations-items text1" id="station-item3">Retro</div>
+        <div class="stations-items text1" id="station-item4">Chill</div>
+        <div class="stations-items text1" id="station-item5">Workout</div>
+        <div class="stations-items text1" id="station-item6">Rock</div>
+        <div class="stations-items text1" id="station-item7">Pop</div>
+      </div>
+
+      <!-- Genre Container -->
+
+      <div class="genre-container">
+        <div class="genre-img-container heading-text" id="genre-img1">
+          <p>Party</p>
+        </div>
+        <div class="genre-img-container heading-text" id="genre-img2">
+          <p>Electronic</p>
+        </div>
+        <div class="genre-img-container heading-text" id="genre-img3">
+          <p>Road Trip</p>
+        </div>
+      </div>
+
+      <!-- Latest English Container -->
+
+      <div class="latest-header heading-text latest-english-heading">Latest English</div>
+      <br>
+      <div class="latest-english-container">
+        <div class="latest-english-img-title-container">
+          <div class="latest-english-img-container" id="latest-english-image1"></div>
+          <p class="text1">title</p>
+          <p class="text1">artist</p>
+        </div>
+
+
+        <div class="latest-english-img-title-container">
+          <div class="latest-english-img-container" id="latest-english-image2"></div>
+          <p class="text1">title</p>
+          <p class="text1">artist</p>
+        </div>
+
+        <div class="latest-english-img-title-container">
+          <div class="latest-english-img-container" id="latest-english-image3"></div>
+          <p class="text1">title</p>
+          <p class="text1">artist</p>
+        </div>
+
+        <div class="latest-english-img-title-container">
+          <div class="latest-english-img-container" id="latest-english-image4"></div>
+          <p class="text1">title</p>
+          <p class="text1">artist</p>
+        </div>
+
+        <div class="latest-english-img-title-container">
+          <div class="latest-english-img-container" id="latest-english-image5"></div>
+          <p class="text1">title</p>
+          <p class="text1">artist</p>
+        </div>
+
+        <div class="latest-english-img-title-container">
+          <div class="latest-english-img-container" id="latest-english-image6"></div>
+          <p class="text1">title</p>
+          <p class="text1">artist</p>
+        </div>
+      </div>
+
+      <!-- Latest Hindi Container -->
+
+      <div class="latest-header heading-text latest-english-heading">Latest Hindi</div>
+      <br>
+      <div class="latest-english-container">
+        <div class="latest-english-img-title-container">
+          <div class="latest-english-img-container" id="latest-hindi-image1"></div>
+          <p class="text1">title</p>
+          <p class="text1">artist</p>
+        </div>
+
+
+        <div class="latest-english-img-title-container">
+          <div class="latest-english-img-container" id="latest-hindi-image2"></div>
+          <p class="text1">title</p>
+          <p class="text1">artist</p>
+        </div>
+
+        <div class="latest-english-img-title-container">
+          <div class="latest-english-img-container" id="latest-hindi-image3"></div>
+          <p class="text1">title</p>
+          <p class="text1">artist</p>
+        </div>
+
+        <div class="latest-english-img-title-container">
+          <div class="latest-english-img-container" id="latest-hindi-image4"></div>
+          <p class="text1">title</p>
+          <p class="text1">artist</p>
+        </div>
+
+        <div class="latest-english-img-title-container">
+          <div class="latest-english-img-container" id="latest-hindi-image5"></div>
+          <p class="text1">title</p>
+          <p class="text1">artist</p>
+        </div>
+
+        <div class="latest-english-img-title-container">
+          <div class="latest-english-img-container" id="latest-hindi-image6"></div>
+          <p class="text1">title</p>
+          <p class="text1">artist</p>
+        </div>
+      </div>
+
+      <!-- LHS Container End   -->
+    </div>
+
+    <!-- RHS Container -->
+    <!-- Queue2 Container  -->
+
+    <div id="queue2" class="queue-container">
+      <div class="queue-header-container">
+        <div id="queue-header" class="heading-text"> My Playlist</div>
+        <div id="queue-dropdown" class="text2">Queue
+          <div class="dropdown">
+            <ul>
+              <li><a href="">Playlists</a></li>
+              <li><a href="">Favourites</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Queue Elements -->
+      <div class="queue-elements" id="element1">
+        <div class="album-container"><span class="text2">01</span>
+          <div class="image-container"><i class="fas play-btn fa-play "></i><img
+              src="./Assets/queuesongs/kissmemore.png" alt=""></div>
+          <ul>
+            <li class="text1">Kiss Me More</li>
+            <br>
+            <li class="text2">Doja Cat</li>
+          </ul>
+        </div>
+        <button><i class="far wishlist-icon fa-heart"></i></button>
+      </div>
+
+      <div class="queue-elements" id="element1">
+        <div class="album-container"><span class="text2">02</span>
+          <div class="image-container"><i class="fas play-btn fa-play "></i><img
+              src="./Assets/queuesongs/blankspace.jpg" alt=""></div>
+          <ul>
+            <li class="text1">Blank Space</li>
+            <br>
+            <li class="text2">Taylor Swift</li>
+          </ul>
+        </div>
+        <button><i class="far wishlist-icon fa-heart"></i></button>
+      </div>
+
+      <div class="queue-elements" id="element1">
+        <div class="album-container"><span class="text2">03</span>
+          <div class="image-container"><i class="fas play-btn fa-play "></i><img
+              src="./Assets/queuesongs/cheapthrills.jpg" alt=""></div>
+          <ul>
+            <li class="text1">Cheap Thrills</li>
+            <br>
+            <li class="text2">Sia</li>
+          </ul>
+        </div>
+        <button><i class="far wishlist-icon fa-heart"></i></button>
+      </div>
+
+      <div class="queue-elements" id="element1">
+        <div class="album-container"><span class="text2">04</span>
+          <div class="image-container"><i class="fas play-btn fa-play "></i><img
+              src="./Assets/queuesongs/Coldplay_-_Paradise.jpg" alt=""></div>
+          <ul>
+            <li class="text1">Paradise</li>
+            <br>
+            <li class="text2">Cold Play</li>
+          </ul>
+        </div>
+        <button><i class="far wishlist-icon fa-heart"></i></button>
+      </div>
+
+      <div class="queue-elements" id="element1">
+        <div class="album-container"><span class="text2">05</span>
+          <div class="image-container"><i class="fas play-btn fa-play "></i><img
+              src="./Assets/queuesongs/gangsta.jpg" alt=""></div>
+          <ul>
+            <li class="text1">Gangstar Paradise</li>
+            <br>
+            <li class="text2">Gangsta</li>
+          </ul>
+        </div>
+        <button><i class="far wishlist-icon fa-heart"></i></button>
+      </div>
+
+      
+
+      <div class="queue-elements" id="element1">
+        <div class="album-container"><span class="text2">06</span>
+          <div class="image-container"><i class="fas play-btn fa-play "></i><img
+              src="./Assets/queuesongs/goodforyou.png" alt=""></div>
+          <ul>
+            <li class="text1">Good For You</li>
+            <br>
+            <li class="text2">Doja Cat</li>
+          </ul>
+        </div>
+        <button><i class="far wishlist-icon fa-heart"></i></button>
+      </div>
+
+      <div class="queue-elements" id="element1">
+        <div class="album-container"><span class="text2">07</span>
+          <div class="image-container"><i class="fas play-btn fa-play "></i><img
+              src="./Assets/queuesongs/sevenrings.jpg" alt=""></div>
+          <ul>
+            <li class="text1">Seven Rings</li>
+            <br>
+            <li class="text2">Doja Cat</li>
+          </ul>
+        </div>
+        <button><i class="far wishlist-icon fa-heart"></i></button>
+      </div>
+
+      <div class="queue-elements" id="element1">
+        <div class="album-container"><span class="text2">08</span>
+          <div class="image-container"><i class="fas play-btn fa-play "></i><img
+              src="./Assets/queuesongs/shapeofyou.jpg" alt=""></div>
+          <ul>
+            <li class="text1">Shape Of You</li>
+            <br>
+            <li class="text2">Ed Shareen</li>
+          </ul>
+        </div>
+        <button><i class="far wishlist-icon fa-heart"></i></button>
+      </div>
+
+      <div class="queue-elements" id="element1">
+        <div class="album-container"><span class="text2">09</span>
+          <div class="image-container"><i class="fas play-btn fa-play "></i><img
+              src="./Assets/queuesongs/sugar.jpg" alt=""></div>
+          <ul>
+            <li class="text1">Sugar</li>
+            <br>
+            <li class="text2">Marroon 5</li>
+          </ul>
+        </div>
+        <button><i class="far wishlist-icon fa-heart"></i></button>
+      </div>
+
+      <!-- Queue Container End  -->
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+
+  <footer id="playbar">
+    <!-- Song Thumnail, Title, Singer -->
+    <div id="footer-song-info">
+      <div id="footer-song-image"></div>
+      <div id="footer-song-name">
+          <span style="color:white">Despacito</span>
+          <span class="subtitle">Loui Fonsi</span>
+      </div>
+      <div>
+          <span class="nav-link">
+              <i class="far fa-heart subtitle"></i>
+          </span>
+          <span class="nav-link">
+              <i class="fas fa-ban subtitle"></i>
+          </span>
+      </div>
+  </div>
+
+  <!-- Contains Player Controls: Play, Pause, Next, Previous, Shuffle and Repeat with Slider -->
+  <div id="player">
+
+      <div id="player-control">
+          <div><i class="fas fa-random" style="color:white;"></i></div>
+          <div><i class="fas fa-step-backward" style="color:white;"></i></div>
+          <div><i class="far fa-pause-circle" style="font-size: 2rem; color:white;"></i></div>
+          <div><i class="fas fa-step-forward" style="color:white;"></i></div>
+          <div><i class="fas fa-redo" style="color:white;"></i></div>
+      </div>
+
+      <div id="player-slider-container">
+          <div class="subtitle">
+              0:00
+          </div>
+
+          <input type="range" min="0" max="100" value="25">
+
+          <div class="subtitle">
+              4:44
+          </div>
+      </div>
+  </div>
+
+  <!-- Volume buttom, Expand button -->
+  <div class="player-extras">
+      <div>
+          <i class="fas fa-list-ul" style="color:white;"></i>
+      </div>
+      <div>
+          <i class="fas fa-laptop" style="color:white;"></i>
+      </div>
+
+      <div class="volume-container" style="color:white;">
+          <span><i class="fas fa-volume-up"></i></span>
+          <input type="range" min="0" max="100" value="50" class="slider" id="volume-slider">
+      </div>
+      <div><i class="fas fa-expand" style="color:white;"></i></div>
+  </div>
+  </footer>
+
+ </body>
+
+<script src="script.js"></script>
+
+</html>
